@@ -29,14 +29,14 @@
             drawChart(bancana['dataArray'],'bar','bancana');        
         });
 
-        var produk=[];
-        produk['dataStr'] = '<?php echo $produk;?>';        
-        produk['dataArray'] = JSON.parse(produk['dataStr']);    
+        var terdampak=[];
+        terdampak['dataStr'] = '<?php echo $terdampak;?>';        
+        terdampak['dataArray'] = JSON.parse(terdampak['dataStr']);    
         //menggambar grafik
         google.charts.setOnLoadCallback(function(){
             drawChart(region['dataArray'], 'pie','region');
             drawChart(bancana['dataArray'],'bar','bancana');
-            drawChart(produk['dataArray'],'bar','produk');        
+            drawChart(terdampak['dataArray'],'bar','terdampak');        
         });
 
 
@@ -94,7 +94,7 @@
             <div>
                 <div class="uk-card uk-card-default uk-card-small uk-card-body" >
                     <h3 class="uk-card-title">Bencana Alam yang Terjadi</h3>
-                    <div id="produk" style="height:350px;"></div>
+                    <div id="terdampak" style="height:350px;"></div>
                 </div>
             </div>
         </div>

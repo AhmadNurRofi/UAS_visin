@@ -13,7 +13,7 @@ class Visin extends CI_Controller {
         //memanggil fungsi region()
         $output['region']=$this->region($data);
         $output['bancana']=$this->bancana($data);
-        $output['produk']=$this->produk($data);   
+        $output['terdampak']=$this->terdampak($data);   
         //mengirim variabel $output ke view      
         $this->load->view('visin',$output);
         //echo json_encode($output['bulanan']);
@@ -69,7 +69,7 @@ class Visin extends CI_Controller {
         return json_encode($tabs);
     }
 
-    function produk($data)
+    function terdampak($data)
     {
         $result=array();
         foreach($data as $row)
@@ -86,7 +86,7 @@ class Visin extends CI_Controller {
         arsort($result);
         //konversi dalam format tabulasi
         $keys=array_keys($result);
-        $tabs=[['Produk','Bencana']];
+        $tabs=[['terdampak','Bencana']];
         foreach($keys as $row)
         {
             $dt=[$row,$result[$row]];
