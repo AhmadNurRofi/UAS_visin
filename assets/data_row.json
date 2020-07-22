@@ -1,0 +1,37 @@
+[
+    {"type":"header","version":"4.9.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+    {"type":"database","name":"visin_survey"},
+    {"type":"table","name":"bancana","database":"visin_survey","data":
+    [
+    {"Region":"Cilacap","Rep":"Kedungreja","Jenis":"Banjir","Bencana":"3"},
+    {"Region":"Cilacap","Rep":"Kedungreja","Jenis":"Angin Kencang","Bencana":"14"},
+    {"Region":"Cilacap","Rep":"Kedungreja","Jenis":"Tanah Longsor","Bencana":"6"},
+    {"Region":"Cilacap","Rep":"Gandrungmangu","Jenis":"Banjir","Bencana":"2"},
+    {"Region":"Cilacap","Rep":"Gandrungmangu","Jenis":"Angin Kencang","Bencana":"15"},
+    {"Region":"Cilacap","Rep":"Cipari","Jenis":"Banjir","Bencana":"3"},
+    {"Region":"Cilacap","Rep":"Cipari","Jenis":"Angin Kencang","Bencana":"11"},
+    {"Region":"Cilacap","Rep":"Cipari","Jenis":"Tanah Longsor","Bencana":"8"},
+    {"Region":"Boyolali","Rep":"Selo","Jenis":"Banjir","Bencana":"2"},
+    {"Region":"Boyolali","Rep":"Selo","Jenis":"Angin Kencang","Bencana":"8"},
+    {"Region":"Boyolali","Rep":"Musuk","Jenis":"Banjir","Bencana":"2"},
+    {"Region":"Boyolali","Rep":"Musuk","Jenis":"Angin Kencang","Bencana":"16"},
+    {"Region":"Boyolali","Rep":"Musuk","Jenis":"Tanah Longsor","Bencana":"3"},
+    {"Region":"Boyolali","Rep":"Ampel","Jenis":"Banjir","Bencana":"1"},
+    {"Region":"Boyolali","Rep":"Ampel","Jenis":"Angin Kencang","Bencana":"11"},
+    {"Region":"Boyolali","Rep":"Cepogo","Jenis":"Banjir","Bencana":"2"},
+    {"Region":"Boyolali","Rep":"Cepogo","Jenis":"Angin Kencang","Bencana":"8"},
+    {"Region":"Boyolali","Rep":"Cepogo","Jenis":"Tanah Longsor","Bencana":"7"},
+    {"Region":"Banjarnegara","Rep":"Batur","Jenis":"Angin Kencang","Bencana":"2"},
+    {"Region":"Banjarnegara","Rep":"Batur","Jenis":"Gunung Mletus","Bencana":"1"},
+    {"Region":"Banjarnegara","Rep":"Batur","Jenis":"Tanah Longsor","Bencana":"36"},
+    {"Region":"Banjarnegara","Rep":"Bawang","Jenis":"Banjir","Bencana":"1"},
+    {"Region":"Banjarnegara","Rep":"Bawang","Jenis":"Angin Kencang","Bencana":"2"},
+    {"Region":"Banjarnegara","Rep":"Bawang","Jenis":"Tanah Longsor","Bencana":"31"},
+    {"Region":"Banjarnegara","Rep":"Kalibening","Jenis":"Banjir","Bencana":"1"},
+    {"Region":"Banjarnegara","Rep":"Kalibening","Jenis":"Angin Kencang","Bencana":"3"},
+    {"Region":"Banjarnegara","Rep":"Kalibening","Jenis":"Tanah Longsor","Bencana":"37"},
+    {"Region":"Banjarnegara","Rep":"Kalibening","Jenis":"Gempa","Bencana":"1"}
+    ]
+    }
+]
+    
